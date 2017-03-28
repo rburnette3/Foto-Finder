@@ -1,43 +1,121 @@
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
 }
+
+/* TOP SECTION */
 body {
 font-family:'Open Sans', sans-serif;
+margin: 0;
+padding: 0;
 }
+
+main {
+ margin: 0;
+ padding: 0;
+}
+
 header {
-  height: 125px;
-  background-color:#3E2A35;
-  text-align: center;
-  font-size: 72px;
+padding-top: 20px;
+height: 125px;
+background-color:#3E2A35 ;
+text-align: center;
+font-size: 60px;
 }
 
 .foto-finder-logo {
-  height: 50px;
-  width: 50px;
+height: 54px;
+width: 73px;
 }
 
 
-p {
-  display: inline-block;
-  background-color: #3E2A35;
-  color: #fff;
-  margin: auto;
+header h1 {
+display: inline-block;
+background-color: #3E2A35 ;
+color: #fff;
+margin: auto;
+font-size: 35px;
 }
+
 .top-section {
-  background-color: #3E2A35;
-  /*text-align: center;*/
-  height:400px;
-
+padding-top: 22px;
+background-color: #3E2A35 ;
+height:400px;
+text-align: center;
 }
-.titleinput {
-  width: 500px;
-  height: 50px;
-  margin: auto;
 
+/* MID SECTION */
+#input_box_title {
+ padding-right: 455px;
+ padding-bottom: 10px;
 }
-.captioninput {
-  width: 500px;
-  height: 50px;
-  margin: auto;
 
+#input_box_caption {
+ padding-right: 430px;
+ padding-bottom: 10px;
+ padding-top: 16px;
 }
+
+.inputboxes {
+width: 500px;
+height: 50px;
+margin: auto;
+}
+
+.input_box_names {
+ margin: 0;
+ color: #c2b2b4 ;
+ font-size: 18px;
+ font-weight: 100;
+}
+
+.top-section-buttons {
+ height: 42px;
+ width: 211px;
+ margin-top: 40px;
+ margin-left: 38px;
+ margin-right: 38px;
+ font-size: 18px;
+ background-color: #5b4447 ;
+ border-style: none;
+ color: #fff;
+ font-weight: 100;
+}
+
+.top-section-buttons:hover {
+ background-color: #938284 ;
+}
+
+#bottom_section {
+ height: 600px;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background-color: #c2b2b4 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
