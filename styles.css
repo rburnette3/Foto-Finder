@@ -2,19 +2,42 @@
   box-sizing: border-box;
 }
 body {
-font-family: }
-header {
-  height: 100
+font-family:'Open Sans', sans-serif;
 }
+header {
+  height: 125px;
+  background-color:#3E2A35;
+  text-align: center;
+  font-size: 72px;
+}
+
 .foto-finder-logo {
   height: 50px;
   width: 50px;
 }
 
 
-h1 {
+p {
   display: inline-block;
   background-color: #3E2A35;
   color: #fff;
   margin: auto;
+}
+.top-section {
+  background-color: #3E2A35;
+  /*text-align: center;*/
+  height:400px;
+
+}
+.titleinput {
+  width: 500px;
+  height: 50px;
+  margin: auto;
+
+}
+.captioninput {
+  width: 500px;
+  height: 50px;
+  margin: auto;
+
 }
