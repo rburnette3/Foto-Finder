@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Foto Finder</title>
-   <link rel="stylesheet" href="styles.css">
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">|
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Foto Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">|
 </head>
 <body>
-  <header>
-    <h1>FOTO
-      <img class="foto-finder-logo" src="photos/foto-finder-logo.svg" alt="foto-finder camera logo">
-      FINDER</h1>
- </header>
-   <main>
-     <section id="top_section" class="top-section">
-       <div id="input_field_containers">
-       <label class="input_box_labels" id="input_box_title">Title</label>
-          <!-- <p class="input_box_names" id="input_box_title">Title</p> -->
-         <input id="title_input" class="inputboxes" type="text" />
-       <label class="input_box_labels" id="input_box_caption">Caption</label>
-         <!-- <p class="input_box_names" id="input_box_caption">Caption</p> -->
-         <input id="caption_input" class="inputboxes" type="text" />
-         <input type="file" name="choose-file-button" id="choose-file-button">
-       </div>
-         <label for="choose-file-button" class="top-section-buttons">Choose File</label>
-         <button type="submit" name="save-button" id="saveButton" class="top-section-buttons">Add to Album</button>
-       </section>
-     <section id="bottom_section" class="bottom-section">
-       <div id="pic_card" class="pic-card">
-         <h5 id="image_title" class="image-title"></h5>
-         <img src="photos/doberman puppies.jpeg" alt="User uploaded image." id="user_image" class="user-image"/>
-         <p id="user_image_caption"></p>
-         <div id="card_footer" class="card-footer">
-          <button class="card_buttons" type="button" name="button"><img src="photos/delete.svg"/></button>
-          <button id="favorite_button" class="card_buttons" type="button" name="button"><img src="photos/favorite.svg"/></button>
-         </div>
-       </div>
-     </section>
+ <header>
+   <h1>FOTO
+     <img class="foto-finder-logo" src="photos/foto-finder-logo.svg" alt="foto-finder camera logo">
+     FINDER</h1>
+</header>
+  <main>
+
+    <section id="top_section" class="top-section">
+      <label class="input_box_labels" id="input_box_title">Title</label>
+
+         <!-- <p class="input_box_names" id="input_box_title">Title</p> -->
+        <input id="title_input" class="inputboxes" type="text" />
+      <label class="input_box_labels" id="input_box_caption">Caption</label>
+
+        <!-- <p class="input_box_names" id="input_box_caption">Caption</p> -->
+        <input id="caption_input" class="inputboxes" type="text" />
+        <input type="file" name="choose-file-button" id="choose-file-button" data-multiple-caption="{count} files selected" multiple>
+        <label for="choose-file-button" class="top-section-buttons">Choose File</label>
+        <button type="submit" name="save-button" id="saveButton" class="top-section-buttons">Add to Album</button>
+      </section>
+    <section id="bottom_section" class="bottom-section">
+      <div id="pic_card" class="pic-card">
+        <h5 id="image_title" class="image-title"></h5>
+        <img src="" alt="User uploaded image." id="user_image" class="user-image"/>
+        <p id="user_image_caption"></p>
+        <div id="card_footer" class="card-footer">
+         <button class="card_buttons" type="button" name="button"><img src="photos/delete.svg"/></button>
+         <button id="favorite_button" class="card_buttons" type="button" name="button"><img src="photos/favorite.svg"/></button>
+        </div>
+      </div>
+    </section>
 
 
 </main>

@@ -1,5 +1,5 @@
 *{
- box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* TOP SECTION */
@@ -12,169 +12,161 @@ padding: 0;
 }
 
 main {
-  margin: 0;
-  padding: 0;
+ margin: 0;
+ padding: 0;
 }
 
 header {
 padding-top: 20px;
- height: 125px;
- background-color:#3E2A35 ;
- text-align: center;
- font-size: 60px;
+height: 125px;
+background-color:#3E2A35 ;
+text-align: center;
+font-size: 60px;
 }
 
 .foto-finder-logo {
- height: 54px;
- width: 73px;
+height: 54px;
+width: 73px;
 }
 
 
 header h1 {
- display: inline-block;
- background-color: #3E2A35 ;
- color: #fff;
- margin: auto;
- font-size: 62px;
+display: inline-block;
+background-color: #3E2A35 ;
+color: #fff;
+margin: auto;
+font-size: 62px;
 }
 
 .top-section {
-
- padding-top: 5px;
- background-color: #3E2A35 ;
- height:400px;
- text-align: center;
- margin: 0;
-
+padding-top: 5px;
+background-color: #3E2A35 ;
+height:400px;
+text-align: center;
 }
 
-#input_field_container {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
+
 /* MID SECTION */
 
 #title_input {
-  margin-bottom: 15px;
-  margin-top: 4px;
+ margin-bottom: 15px;
+ margin-top: 4px;
 }
 
 #caption_input {
-  margin-bottom: 15px;
-  margin-top: 10px;
+ margin-bottom: 15px;
+ margin-top: 10px;
 }
 
 #input_box_title {
-  padding-right: 455px;
-  padding-bottom: 10px;
-  display: block;
+ padding-right: 455px;
+ padding-bottom: 10px;
 }
 
 #input_box_caption {
-  padding-right: 430px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  display: block;
+ padding-right: 430px;
+ padding-bottom: 10px;
+ padding-top: 10px;
 }
 
 .inputboxes {
- width: 500px;
- height: 50px;
- margin: auto;
- /*padding-top: 50px;*/
+width: 500px;
+height: 50px;
+margin: auto;
+display:block;
+/*padding-top: 50px;*/
 }
 
 .input_box_labels {
-  margin: 0;
-  color: #c2b2b4;
-  font-size: 17px;
-  font-weight: 100;
+ margin: 0;
+ color: #c2b2b4 ;
+ font-size: 17px;
+ font-weight: 100;
 }
 
 .top-section-buttons {
-  height: 42px;
-  width: 211px;
-  margin-top: 40px;
-  margin-left: 38px;
-  margin-right: 38px;
-  font-size: 18px;
-  background-color: #5b4447;
-  border-style: none;
-  color: #fff;
-  font-weight: 100;
+ height: 42px;
+ width: 211px;
+ margin-top: 40px;
+ margin-left: 38px;
+ margin-right: 38px;
+ font-size: 18px;
+ background-color: #5b4447 ;
+ border-style: none;
+ color: #fff;
+ font-weight: 100;
 }
 
 .top-section-buttons:hover {
-  background-color: #938284;
+ background-color: #938284 ;
 }
 
 #bottom_section {
-  height: 600px;
-  width: 100%;
-  background-color: #c2b2b4;
-  margin-top: 0px;
-  padding-top: 24px;
+ height: 600px;
+ width: 100%;
+ background-color: #c2b2b4 ;
+ margin-top: 0px;
+ padding-top: 24px;
 }
 
 #choose-file-button {
- width: 0.1px;
- height: 0.1px;
- opacity: 0;
- overflow: hidden;
- position: absolute;
- z-index: -1;
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
 }
-
 #choose-file-button + label {
-    padding-top: 8px;
-    font-size: 18px;
-    font-weight: lighter;
-    color: #fff;
-    background-color: #5b4447;
-    display: inline-block;
+   padding-top: 8px;
+   font-size: 18px;
+   font-weight: lighter;
+   color: #fff;
+   background-color: #5b4447 ;
+   display: inline-block;
 }
 
 #choose-file-button:focus + label,
 #choose-file-button + label:hover {
-    background-color: #938284;
+   background-color: #938284 ;
 }
 /*Bottom Section*/
 .pic-card {
-  background-color: #fff;
-  width: 230px;
-  margin: auto;
-  border: 2px solid #939284;
+ background-color: #fff;
+ width: 230px;
+ margin: auto;
+ border: 2px solid #939284 ;
 }
 
 .image-title {
-  background-color: #fff;
-  width: 100%;
-  height: 0px;
-  font-size: 18px;
-  margin-top: 5px;
-  padding-left: 8px;
-  font-weight: 100;
+ background-color: #fff;
+ width: 100%;
+ height: 0px;
+ font-size: 18px;
+ margin-top: 5px;
+ padding-left: 8px;
+ font-weight: 100;
 }
 
 .user-image {
-  height: 201px;
-  width: 100%;
+ height: 201px;
+ width: 100%;
 }
 
 .card-footer {
-  width: 100%;
-  height: 50px;
-  background-color: #5b4447;
+ width: 100%;
+ height: 50px;
+ background-color: #5b4447 ;
 }
 
 .card_buttons {
-  height: 43px;
-  width: 43px;
-  background-color: #5b4447;
-  border-style: none;
+ height: 43px;
+ width: 43px;
+ background-color: #5b4447 ;
+ border-style: none;
 }
 
 #favorite_button {
-  margin-left: 112px;
+ margin-left: 112px;
 }
