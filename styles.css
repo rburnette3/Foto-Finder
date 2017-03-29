@@ -93,10 +93,45 @@ text-align: center;
  padding-bottom: 10px;
 }
 
+@media screen and (max-width: 670px) {
+  #input_box_title {
+    padding-right: 430px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #input_box_title {
+    padding-right: 347px;
+    padding-bottom: 10px;
+  }
+}
+
 #input_box_caption {
  padding-right: 430px;
  padding-bottom: 10px;
  padding-top: 10px;
+}
+
+@media screen and (max-width: 670px) {
+  #input_box_caption {
+    padding-right: 409px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #input_box_caption {
+    padding-right: 320px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #input_box_caption {
+    padding-right: 281px;
+    padding-bottom: 10px;
+  }
 }
 
 .inputboxes {
