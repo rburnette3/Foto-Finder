@@ -35,7 +35,7 @@ header h1 {
  background-color: #3E2A35 ;
  color: #fff;
  margin: auto;
- font-size: 35px;
+ font-size: 62px;
 }
 
 .top-section {
@@ -128,4 +128,38 @@ header h1 {
 #choose-file-button:focus + label,
 #choose-file-button + label:hover {
     background-color: #938284;
+}
+/*Bottom Section*/
+.pic-card {
+  background-color: #fff;
+  height: 320px;
+  width: 210px;
+  margin: auto;
+}
+
+.image-title {
+  background-color: #fff;
+  width: 100%;
+}
+
+.user-image {
+  height: 114px;
+  width: 100%;
+}
+
+.card-footer {
+  width: 100%;
+  height: 50px;
+  background-color: #5b4447;
+}
+
+.card_buttons {
+  height: 40px;
+  width: 40px;
+  background-color: #5b4447;
+  border-style: none;
+}
+
+#favorite_button {
+  margin-left: 102px;
 }
