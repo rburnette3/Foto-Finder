@@ -8,8 +8,8 @@ var userImage = document.getElementById('user_image');
 
 addToAlbumButton.addEventListener('click', function() {
   console.log("I've been clicked");
-  event.preventDefault();
-  imageTitle.innerText = titleInput.innerText;
+  imageTitle.innerText = titleInput.value;
+  userImageCaption.innerText = captionInput.value;
 // var imageTitle.innerText = titleInput.value;
 // var userImageCaption.innerText = captionInput.value;
 })
