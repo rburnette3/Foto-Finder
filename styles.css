@@ -132,11 +132,12 @@ z-index: -1;
    background-color: #938284 ;
 }
 /*Bottom Section*/
-.pic-card {
+.photo-card {
  background-color: #fff;
  width: 230px;
  margin: auto;
- border: 2px solid #939284 ;
+ border: 2px solid #939284;
+ float:left;
 }
 
 .image-title {
