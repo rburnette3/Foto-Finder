@@ -39,14 +39,20 @@ header h1 {
 }
 
 .top-section {
+
  padding-top: 5px;
  background-color: #3E2A35 ;
  height:400px;
  text-align: center;
+ margin: 0;
+
 }
 
-
-
+#input_field_container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* MID SECTION */
 
 #title_input {
@@ -62,12 +68,14 @@ header h1 {
 #input_box_title {
   padding-right: 455px;
   padding-bottom: 10px;
+  display: block;
 }
 
 #input_box_caption {
   padding-right: 430px;
   padding-bottom: 10px;
   padding-top: 10px;
+  display: block;
 }
 
 .inputboxes {
@@ -108,6 +116,7 @@ header h1 {
   margin-top: 0px;
   padding-top: 24px;
 }
+
 #choose-file-button {
  width: 0.1px;
  height: 0.1px;
@@ -116,6 +125,7 @@ header h1 {
  position: absolute;
  z-index: -1;
 }
+
 #choose-file-button + label {
     padding-top: 8px;
     font-size: 18px;
