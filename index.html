@@ -25,18 +25,18 @@
        <label class="input_box_labels" id="input_box_caption">Caption</label>
        <form id="caption_input" class="input_form" action="index.html" type="text" method="post">
          <!-- <p class="input_box_names" id="input_box_caption">Caption</p> -->
-         <input id="captionInput" class="inputboxes" type="text">
+         <input id="caption_input" class="inputboxes" type="text">
          </input>
        </form>
          <input type="file" name="choose-file-button" id="choose-file-button">
          <label for="choose-file-button" class="top-section-buttons">Choose File</label>
-         <button type="button" name="save-button" id="saveButton" class="top-section-buttons">Add to Album</button>
+         <button type="submit" name="save-button" id="saveButton" class="top-section-buttons">Add to Album</button>
        </section>
      <section id="bottom_section" class="bottom-section">
        <div id="pic_card" class="pic-card">
-         <h5 id="image_title" class="image-title">Title text here</h5>
+         <h5 id="image_title" class="image-title"></h5>
          <img src="photos/doberman puppies.jpeg" alt="User uploaded image." id="user_image" class="user-image"/>
-         <p>Lorem ipsum dolor sit amet, consecectur adipscing elit Lorem ipsum dolor sit amet, consecectur adipscing elit.</p>
+         <p id="user_image_caption"></p>
          <div id="card_footer" class="card-footer">
           <button class="card_buttons" type="button" name="button"><img src="photos/delete.svg"/></button>
           <button id="favorite_button" class="card_buttons" type="button" name="button"><img src="photos/favorite.svg"/></button>
@@ -48,4 +48,5 @@
 </main>
 
 </body>
+<script type="text/javascript" src="scripts.js"></script>
 </html>
