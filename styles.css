@@ -267,11 +267,11 @@ z-index: -1;
 
 #favorite_button {
  margin-left: 112px;
- background: url("photos/favorite.svg") no-repeat;
+ background: url("svg/favorite.svg") no-repeat;
  margin-left: 134px;
 
 }
 #favorite_button:hover {
-  background: url("photos/favorite-active.svg") no-repeat;
+  background: url("svg/favorite-active.svg") no-repeat;
   margin-left: 134px;
 }
