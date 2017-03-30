@@ -6,6 +6,7 @@ var imageTitle = document.getElementById('image_title');
 var userImageCaption = document.getElementById('user_image_caption');
 var userImage = document.getElementById('user_image');
 var bottomSection = document.getElementById('bottom_section');
+var favButton = document.getElementById('favorite_button')
 
 function fileChooser(filepath) {
   return filepath.split('\\').pop();
@@ -14,17 +15,12 @@ function fileChooser(filepath) {
 
 addToAlbumButton.addEventListener('click', function() {
   console.log("I've been clicked");
-  // var title = titleInput.value;
-  // var caption  = captionInput.value;
-  // var chosenPhoto = "photos/" + fileChooser(fileImageChooserButton.value);
-  // console.log(fileChooser(fileImageChooserButton.value));
-  // console.log(chosenPhoto);
-// var imageTitle.innerText = titleInput.value;
-// var userImageCaption.innerText = captionInput.value;
   addPhotoCard();
 })
 
-
+favButton.addEventListener('click', function() {
+  console.log("click click");
+})
 
 function addPhotoCard() {
   var newPhotoCard = document.createElement('div');
@@ -34,7 +30,6 @@ function addPhotoCard() {
   var caption  = captionInput.value;
   var chosenPhoto = "photos/" + fileChooser(fileImageChooserButton.value);
 
-
   newPhotoCard.innerHTML =
   '<h5 id="image_title" class="image-title">' + title + '</h5>' +
   '<img src="' + chosenPhoto + '" alt="User uploaded image." id="user_image" class="user-image"/>' +
@@ -42,8 +37,7 @@ function addPhotoCard() {
   '<div id="card_footer" class="card-footer"><button class="card_buttons" type="button" name="button">' +
   '<img src="photos/delete.svg"/>' +
     '</button>' +
-    '<button id="favorite_button" class="card_buttons" type="button" name="button">' +
-    '<img src="photos/favorite.svg"/></button>' +
+    '<button id="favorite_button" class="card_buttons" type="button" name="button"></button>'
   '</div>'
   bottomSection.appendChild(newPhotoCard);
 }
