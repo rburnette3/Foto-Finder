@@ -35,7 +35,7 @@ function addPhotoCard() {
   '<img src="' + chosenPhoto + '" alt="User uploaded image." id="user_image" class="user-image"/>' +
   '<p id="user_image_caption">' + caption + '</p>' +
   '<div id="card_footer" class="card-footer"><button class="card_buttons" type="button" name="button">' +
-  '<img src="photos/delete.svg"/>' +
+  '<img src="svg/delete.svg"/>' +
     '</button>' +
     '<button id="favorite_button" class="card_buttons" type="button" name="button"></button>'
   '</div>'
